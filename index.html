@@ -15,34 +15,30 @@
 </head>
 
 <body>
-	<article class="article">
-		<section class="article__header">
+	<main class="main">
+		<section class="main__header">
 			<div class="container">
-				<h1 class="article__header-title">Отступы в вёрстке: margin и padding</h1>
-				<ul class="article__header-list">
-					<li class="list-text">
-						<p class="text">В этой статье я рассмотрю самые популярные "стандартные" решения для сохранения смысла и
-							хорошей читаемости вашего кода. Если точнее — речь пойдет об основных правилах организации отступов. Они
-							сильно влияют на общую функциональность кода и, если всё сделано верно, позволяют легко вносить изменения
-							в
-							любую его часть. При этом другие части кода продолжат нормально работать.</p>
-					</li>
-					<li class="list-text --margin-null">
-						<p class="text">Как это часто бывает, знание базовых принципов поможет проявить гибкость и выйти за их
-							пределы. Эти знания особенно важны для начинающих, но также будут полезным напоминанием и для более
-							опытных
-							верстальщиков. Итак, поговорим о фундаментальных основах работы с отступами в вёрстке.</p>
-					</li>
-				</ul>
+				<h1 class="main__header-title">Отступы в вёрстке: margin и padding</h1>
+				<p class="text">В этой статье я рассмотрю самые популярные "стандартные" решения для сохранения смысла и
+					хорошей читаемости вашего кода. Если точнее — речь пойдет об основных правилах организации отступов. Они
+					сильно влияют на общую функциональность кода и, если всё сделано верно, позволяют легко вносить изменения
+					в
+					любую его часть. При этом другие части кода продолжат нормально работать.</p>
+				<p class="text --margin-null">Как это часто бывает, знание базовых принципов поможет проявить гибкость и выйти
+					за их
+					пределы. Эти знания особенно важны для начинающих, но также будут полезным напоминанием и для более
+					опытных
+					верстальщиков. Итак, поговорим о фундаментальных основах работы с отступами в вёрстке.</p>
+
 			</div>
 		</section>
 
-		<section class="article__navbar">
+		<section class="main__navbar">
 			<div class="container container-big">
-				<nav class="article__navbar-nav">
-					<h2 class="article__navbar-title">Содержание:</h2>
+				<nav class="main__navbar-nav">
+					<h2 class="main__navbar-title">Содержание:</h2>
 
-					<ul class="article__navbar-list">
+					<ul class="main__navbar-list">
 						<li class="list-link">
 							<a class="link" href="#margin-next">1.Отступ задается от предыдущего элемента к следующему</a>
 						</li>
@@ -61,9 +57,9 @@
 
 		<!-- !!       section one       -->
 
-		<section class="article__one">
+		<section class="main__one">
 			<div class="container">
-				<div class="article__one-wrap">
+				<div class="main__one-wrap">
 					<h3 class="one-wrap-title" id="margin-next">Отступ задается от предыдущего элемента к следующему: от первого
 						ко
 						второму,
@@ -112,9 +108,9 @@
 
 		<!-- !!               section two             -->
 
-		<section class="article__two">
+		<section class="main__two">
 			<div class="container">
-				<div class="article__two-wrap">
+				<div class="main__two-wrap">
 					<h3 class="two-wrap-title" id="dom">Отступ задается последнему возможному элементу в DOM-дереве</h3>
 					<p class="two-wrap-text">Вообще, margin задают исключительно между соседними элементами DOM-дерева. Для
 						примера, посмотрите на этот список:</p>
@@ -155,10 +151,10 @@
 
 		<!-- !!                   section three             -->
 
-		<section class="article__three">
+		<section class="main__three">
 			<div class="container">
-				<div class="article__three-wrap">
-					<h3 class="article__three-wrap-title" id="margin-null">Для последнего элемента группы отступ всегда обнуляется
+				<div class="main__three-wrap">
+					<h3 class="main__three-wrap-title" id="margin-null">Для последнего элемента группы отступ всегда обнуляется
 					</h3>
 					<p class="three-wrap-text">Для наглядности возьмём наш предыдущий пример с рецептами</p>
 					<p class="three-wrap-text">Между рецептами расстояние одинаковое. Можно заметить, что и до следующего блока
@@ -191,11 +187,11 @@
 
 		<!-- !!              section footer                -->
 
-		<section class="article__footer">
+		<section class="main__footer">
 			<div class="container container-big">
-				<div class="article__footer-inner">
-					<h3 class="article__footer-title">Подытожим:</h3>
-					<ul class="article__footer-list">
+				<div class="main__footer-inner">
+					<h3 class="main__footer-title">Подытожим:</h3>
+					<ul class="main__footer-list">
 						<li class="list-item">— отступы задаём от предыдущего элемента к следующему
 						</li>
 						<li class="list-item">— используем только margin-right и margin-bottom
@@ -206,7 +202,7 @@
 						</li>
 						<li class="list-item --margin-null">— последнему элементу группы отступ всегда обнуляем</li>
 					</ul>
-					<p class="article__footer-text --margin-null">Конечно бывают исключения. Ведь макеты бывают различной
+					<p class="main__footer-text --margin-null">Конечно бывают исключения. Ведь макеты бывают различной
 						сложности. Иногда
 						базовые
 						принципы приходится
@@ -215,7 +211,7 @@
 				</div>
 			</div>
 		</section>
-	</article>
+	</main>
 </body>
 
 </html>
